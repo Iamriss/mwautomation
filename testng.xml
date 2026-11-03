@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="TextUtil Test Suite">
-    <test name="TextUtil Tests">
-        <classes>
-            <class name="id.co.juaracoding.testng.TextUtilTest"/>
-        </classes>
-    </test>
+<suite name="Simple Apps Automation Suite" verbose="1" parallel="false">
+  <test name="TestNG Foundation">
+    <classes><class name="id.co.juaracoding.testng.TextUtilTest"/></classes>
+  </test>
+  <test name="Selenium Web UI">
+    <classes>
+      <class name="id.co.juaracoding.selenium.LoginTest"/>
+      <class name="id.co.juaracoding.selenium.RegistrasiTest"/>
+      <class name="id.co.juaracoding.selenium.LupaPasswordTest"/>
+    </classes>
+  </test>
+  <test name="RestAssured API">
+    <classes>
+      <class name="id.co.juaracoding.restassured.LoginApiTest"/>
+      <class name="id.co.juaracoding.restassured.RegisterApiTest"/>
+      <class name="id.co.juaracoding.restassured.ForgotPasswordApiTest"/>
+    </classes>
+  </test>
+  <test name="Cucumber Web BDD"><classes><class name="id.co.juaracoding.cucumber.web.CucumberWebRunner"/></classes></test>
+  <test name="Cucumber API BDD"><classes><class name="id.co.juaracoding.cucumber.api.CucumberApiRunner"/></classes></test>
 </suite>

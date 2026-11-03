@@ -1,0 +1,126 @@
+2026-11-03 18:10:51.311 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-11-03 18:10:51.396 INFO  [main] id.co.juaracoding.SimpleAppsApplication - Starting SimpleAppsApplication v0.0.1-SNAPSHOT using Java 21.0.12.1 with PID 572 (/mnt/data/simple-apps-backend-0.0.1-SNAPSHOT.jar started by root in /mnt/data/simpleapps_work)
+2026-11-03 18:10:51.404 INFO  [main] id.co.juaracoding.SimpleAppsApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-03 18:10:52.980 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03 18:10:53.103 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 22 JPA repository interfaces.
+2026-11-03 18:10:54.148 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-11-03 18:10:54.167 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-03 18:10:54.171 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-03 18:10:54.171 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-11-03 18:10:54.214 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-11-03 18:10:54.215 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2758 ms
+2026-11-03 18:10:54.631 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-03 18:10:54.686 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2026-11-03 18:10:54.718 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-11-03 18:10:54.977 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03 18:10:55.008 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-03 18:10:55.195 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:simpleapps user=SA
+2026-11-03 18:10:55.197 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-03 18:10:55.221 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-03 18:10:55.246 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03 18:10:56.533 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03 18:10:56.537 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03 18:10:57.009 INFO  [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-03 18:10:58.319 INFO  [main] id.co.juaracoding.internal.af - Mode aplikasi awal = TESTING (K59). Toggle lewat A9 POST /mode/toggle dengan header ch_profile_key.
+2026-11-03 18:10:58.445 INFO  [main] id.co.juaracoding.security.EnvConfigService - Gerbang .env: file config ./config/app-env.json belum ada — form .env wajib diisi saat start (K58).
+2026-11-03 18:10:59.443 INFO  [main] id.co.juaracoding.internal.v - Cloudinary belum disetup — file ./config/cloudinary.json tidak ada. Fitur upload menyala 'belum siap' (K33).
+2026-11-03 18:11:00.181 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-11-03 18:11:00.587 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-11-03 18:11:00.636 INFO  [main] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name appUserDetailsService
+2026-11-03 18:11:01.781 INFO  [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:simpleapps'
+2026-11-03 18:11:02.096 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Starting...
+2026-11-03 18:11:02.096 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@e1cc4e5]]
+2026-11-03 18:11:02.098 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Started.
+2026-11-03 18:11:02.098 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-11-03 18:11:02.114 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2026-11-03 18:11:02.114 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@e1cc4e5]]
+2026-11-03 18:11:02.115 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2026-11-03 18:11:02.115 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-11-03 18:11:02.129 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03 18:11:02.132 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-11-03 18:11:02.134 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-11-03 18:11:02.153 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-03 18:11:02.168 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-11-03 18:11:06.781 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-11-03 18:11:06.843 INFO  [main] id.co.juaracoding.SimpleAppsApplication - Starting SimpleAppsApplication v0.0.1-SNAPSHOT using Java 21.0.12.1 with PID 622 (/mnt/data/simple-apps-backend-0.0.1-SNAPSHOT.jar started by root in /mnt/data/simpleapps_work)
+2026-11-03 18:11:06.850 INFO  [main] id.co.juaracoding.SimpleAppsApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-03 18:11:08.539 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03 18:11:08.649 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 22 JPA repository interfaces.
+2026-11-03 18:11:09.842 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 18080 (http)
+2026-11-03 18:11:09.856 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2026-11-03 18:11:09.858 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-03 18:11:09.858 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-11-03 18:11:09.896 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-11-03 18:11:09.899 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3001 ms
+2026-11-03 18:11:10.560 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-03 18:11:10.617 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2026-11-03 18:11:10.653 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-11-03 18:11:10.915 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03 18:11:10.947 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-03 18:11:11.164 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:simpleapps user=SA
+2026-11-03 18:11:11.166 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-03 18:11:11.197 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-03 18:11:11.223 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03 18:11:12.527 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03 18:11:12.530 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03 18:11:13.123 INFO  [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-03 18:11:14.354 INFO  [main] id.co.juaracoding.internal.af - Mode aplikasi awal = TESTING (K59). Toggle lewat A9 POST /mode/toggle dengan header ch_profile_key.
+2026-11-03 18:11:14.492 INFO  [main] id.co.juaracoding.security.EnvConfigService - Gerbang .env: file config ./config/app-env.json belum ada — form .env wajib diisi saat start (K58).
+2026-11-03 18:11:15.310 INFO  [main] id.co.juaracoding.internal.v - Cloudinary belum disetup — file ./config/cloudinary.json tidak ada. Fitur upload menyala 'belum siap' (K33).
+2026-11-03 18:11:16.082 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-11-03 18:11:16.542 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-11-03 18:11:16.618 INFO  [main] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name appUserDetailsService
+2026-11-03 18:11:18.023 INFO  [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:simpleapps'
+2026-11-03 18:11:18.337 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Starting...
+2026-11-03 18:11:18.338 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1b74e55a]]
+2026-11-03 18:11:18.340 INFO  [main] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Started.
+2026-11-03 18:11:18.340 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2026-11-03 18:11:18.357 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 18080 (http) with context path '/'
+2026-11-03 18:11:18.381 INFO  [main] id.co.juaracoding.SimpleAppsApplication - Started SimpleAppsApplication in 12.026 seconds (process running for 12.915)
+2026-11-03 18:11:18.514 INFO  [main] id.co.juaracoding.config.DataSeeder - Seed data awal (Unit 6) DIMULAI — pelaku sentinel SYSTEM.
+2026-11-03 18:11:18.590 INFO  [http-nio-18080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03 18:11:18.590 INFO  [http-nio-18080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-03 18:11:18.592 INFO  [http-nio-18080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-11-03 18:11:19.189 INFO  [main] id.co.juaracoding.config.DataSeeder - Seed data awal (Unit 6) SELESAI — access=4 menu=24 map_access_menu=59 user=5 category=6 product=7 cms=5. cnf_order_sequence sengaja kosong (buku alokasi).
+2026-11-03 18:11:19.284 WARN  [main] id.co.juaracoding.internal.ab - Sumber waktu internet tak terjangkau (null). offset=0, pakai jam sistem UTC. Expiry lisensi tetap ditegakkan. (Set app.license.require-time-source=true untuk menegakkan kontrak 503 API-ECMXP50301.)
+2026-11-03 18:11:20.600 INFO  [http-nio-18080-exec-2] org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1862 ms
+2026-11-03 18:12:18.299 INFO  [MessageBroker-4] org.springframework.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 3]
+2026-11-03 18:13:20.195 INFO  [http-nio-18080-exec-8] id.co.juaracoding.security.RequestResponseLoggingFilter - method=GET path=/api/v1/captcha status=401 error_code=API-ECMXS40108 authorization=- request_body=
+2026-11-03 18:13:20.205 INFO  [http-nio-18080-exec-9] id.co.juaracoding.security.RequestResponseLoggingFilter - method=GET path=/api/v1/license/status status=401 error_code=API-ECMXS40108 authorization=- request_body=
+2026-11-03 18:16:16.096 INFO  [SpringApplicationShutdownHook] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03 18:16:16.102 INFO  [tomcat-shutdown] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-11-03 18:16:16.111 INFO  [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2026-11-03 18:16:16.111 INFO  [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1b74e55a]]
+2026-11-03 18:16:16.111 INFO  [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2026-11-03 18:16:16.128 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03 18:16:16.131 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-11-03 18:16:16.134 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
